@@ -8,6 +8,9 @@ Projeto Laravel v8.81.0, configurado para rodar na Hospedagem da [Vercel](https:
 
 * Para criar o ambiente, clone o Repositório e execute:
 ~~~
+npm install
+~~~
+~~~
 composer install
 ~~~
 ~~~

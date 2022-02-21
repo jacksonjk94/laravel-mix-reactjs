@@ -1,3 +1,45 @@
+## Projeto
+
+Projeto Laravel v9.1.0, configurado para rodar na Hospedagem da [Vercel](https://vercel.com/)
+
+- **[Link do Projeto](https://laravel-mix-reactjs.vercel.app/)**
+
+## Dev
+
+* Para criar o ambiente, clone o Repositório e execute:
+~~~
+composer install
+~~~
+~~~
+composer dump-autoload
+~~~
+
+* Gerar novo arquivo .env:
+~~~
+cp .env.example .env
+~~~
+
+* Gerar novo "APP_KEY":
+~~~
+php artisan key:generate
+~~~
+
+* Iniciar Servidor:
+~~~
+php artisan serve
+~~~
+* Rota da API do Laravel na Vercel:
+~~~
+https://laravel-mix-reactjs.vercel.app/api/api/test
+~~~
+
+## Environment Variables
+
+* Project / Settings / Environment Variables
+
+<img src="https://raw.githubusercontent.com/jacksonjk94/laravel-deploy-vercel/main/.env.config.png" width="100%">
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
